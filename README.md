@@ -1,11 +1,17 @@
-# Combat Extended: FastTrack Edition
+# Combat Extended: BackTrack Edition
 Combat Extended: FastTrack Edition is a fork of the [original Combat Extended mod](https://github.com/NoImageAvailable/CombatExtended/), with integrated support for more third-party mods and a more frequent update cycle.
+
+Recently, the CE:FT team decided to update their binary version, which breaks C# mods which reference it. As I could not find a reasonable way to make mods compatible with both CE and CE:FT simultaneously, and strongly disagree with splitting the community by breaking the promised compatibility between the two, I decided to fork their fork to create a version which is still compatible. There are no other changes at this time.
+Please do not bother them with bug reports which are specific to this version. At a very minimum, if you are reporting a bug to them, use the correct version (1.0.1.8) rather than any older one which might appear in your log file.
+
+If CE:FT reverts their change or CE also updates their version number, this mod will cease to be updated. This exists only to improve compatibility, not create a [third competing variant.](https://xkcd.com/927/)
+
 
 ## Features
 - Same [core features as the original mod](https://github.com/NoImageAvailable/CombatExtended/blob/master/README.md) - shooting, melee, armor, inventory and medical overhauls
 - Fully compatible with existing CE savegames - delete CE completely, drop in CE:FT and go!
 - 119 supported third-party mods (compared with 80 for CE)
-- Recognizes existing third-party standalone patches intended for the original CE
+- Recognizes existing third-party standalone patches intended for the original CE (Including C# ones)
 - Additional ammo and projectile definitions and textures
 - CE:FT-exclusive features for third-party modders and patch authors:
   - `ammoConsumedPerShotCount` for `Verb_ShootCE`, which supports guns with multiple simultaneous-firing barrels 
